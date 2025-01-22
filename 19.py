@@ -13,11 +13,11 @@ list2 = list(map(int, numbers2.split(',')))
 
 list3 = []
 
-for i in range(0, len(list1)):
-    list3.append(list1[i])
+for i in list1:
+    list3.append(i)
 
-for j in range(0,len(list2)):
-        list3.append(list2[j])
+for j in list2:
+        list3.append(j)
 
 print(list3)
 
